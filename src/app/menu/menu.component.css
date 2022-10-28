@@ -1,0 +1,56 @@
+
+.headr{
+    position:fixed;
+    width: 100%;
+}
+.menu{
+    margin-top: 0%;
+}
+.mar{
+    background-color: rgb(7, 20, 197);
+    color: rgb(252, 240, 242);
+} 
+.tran{
+   
+    display:inline-block;
+    padding: 40px;
+    /* justify-content: space-around; */
+   cursor: pointer;
+   margin-left: 40px;
+}
+.conte{
+   
+   
+    display: block;
+    /* padding: 40px; */
+   
+
+} 
+.row1{
+    padding: 40px;
+    /* justify-content: space-between; */
+    /* margin: 50%; */
+    background-color: rgb(184, 70, 199);
+}
+.row2{
+    padding: 40px;
+    background-color: aqua;
+}
+h4{
+    cursor: pointer;
+}
+
+.card{
+    display: inline-block
+}
+
+.card text-center{
+    color: aqua;
+}
+
+.ul1{
+display: inline-flex;
+padding: 50px;
+
+
+}

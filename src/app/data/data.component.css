@@ -1,0 +1,21 @@
+
+.headr{
+    position:fixed;
+    width: 100%;
+}
+body{
+    /* align-items: center; */
+}
+
+
+.hdr2{
+    /* width: 300%; */
+    display: flex;
+    justify-content: space-between;
+    background-color: blueviolet;
+    position: fixed;
+    width: 100%;
+}
+h4{
+    cursor: pointer;
+}
