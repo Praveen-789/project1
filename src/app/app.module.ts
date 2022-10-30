@@ -8,6 +8,7 @@ import { HomeComponent } from './home/home.component';
 import { MenuComponent } from './menu/menu.component';
 import { DataComponent } from './data/data.component';
 import { HeaderComponent } from './header/header.component';
+import { ShowComponent } from './show/show.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { HeaderComponent } from './header/header.component';
     MenuComponent,
     DataComponent,
     HeaderComponent,
+    ShowComponent,
     
   ],
   imports: [
@@ -23,7 +25,7 @@ import { HeaderComponent } from './header/header.component';
     AppRoutingModule,
     FormsModule
   ],
-  providers: [],
+  providers: [DataComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
